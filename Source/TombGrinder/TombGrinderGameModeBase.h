@@ -12,8 +12,6 @@ UCLASS()
 class TOMBGRINDER_API ATombGrinderGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
-	
-	
-	
+
+	virtual void StartPlay() override;
 };
